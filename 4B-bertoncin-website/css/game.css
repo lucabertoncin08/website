@@ -1,0 +1,66 @@
+.square {
+    width: 600px;
+    height: 600px;
+    background-color: blue;
+}
+
+.row {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cell {
+    height: 200px;
+    width: 200px;
+    max-height: 200px;
+    max-width: 200px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.carousel {
+    background-image: url("../img/sv2-1200x675.jpg.webp");
+    height: 600px;
+    color: white;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+p {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #39FF14;
+}

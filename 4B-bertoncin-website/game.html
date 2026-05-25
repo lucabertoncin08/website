@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tris</title>
+    <link rel="stylesheet" href="css/game.css">
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="game.html" class="active">GAME</a></li>
+                    <li><a href="history.html">HISTOY</a></li>
+                    <li><a href="quiz.html">QUIZ</a></li>
+                </ul>
+            </div>
+            <div class="carousel">
+                <h1>TRIS</h1>
+            </div>
+        </header>
+
+        <main>
+            <p id="turno"></p>
+            <div class="container">
+                <div class="square">
+                    <div class="row">
+                        <button id="cell-0-0" class="cell" onclick="setSymbol(0, 0)"></button>
+                        <button id="cell-0-1" class="cell" onclick="setSymbol(0, 1)"></button>
+                        <button id="cell-0-2" class="cell" onclick="setSymbol(0, 2)"></button>
+                    </div>
+                    <div class="row">
+                        <button id="cell-1-0" class="cell" onclick="setSymbol(1, 0)"></button>
+                        <button id="cell-1-1" class="cell" onclick="setSymbol(1, 1)"></button>
+                        <button id="cell-1-2" class="cell" onclick="setSymbol(1, 2)"></button>
+                    </div>
+                    <div class="row">
+                        <button id="cell-2-0" class="cell" onclick="setSymbol(2, 0)"></button>
+                        <button id="cell-2-1" class="cell" onclick="setSymbol(2, 1)"></button>
+                        <button id="cell-2-2" class="cell" onclick="setSymbol(2, 2)"></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="btns">
+                <button onclick="startGame()">Inizia partita</button>
+
+                <button onclick="resetGame()">Ricomincia</button>
+            </div>
+        
+        </main>
+
+        <footer>
+            <a href="mailto:luca.bertoncin@salesiani.novara.it">Realizzato da Luca Bertoncin - luca.bertoncin@salesiani.novara.it</a>
+        </footer>
+
+        <script src="js/game.js"></script>
+    </body>
+</html>

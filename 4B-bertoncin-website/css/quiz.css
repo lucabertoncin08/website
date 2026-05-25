@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+}
+
+.carousel {
+    background-image: url("../img/gioco-d-azzardo-2.jpg");
+    height: 600px;
+    color: white;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+#quiz {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 60%;
+    border-radius: 10px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+button {
+    height: 50px;
+    width: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background-color: lightgrey;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #39FF14;
+}
+
+#feedback {
+    font-weight: bold;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 20px;
+    color: black;
+}
+
+#domanda {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+#opzioni {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 20px;
+    color: black;
+}

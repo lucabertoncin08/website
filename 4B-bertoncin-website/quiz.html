@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <title>Quiz Gaming</title>
+        <link rel="stylesheet" href="css/quiz.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+    <header>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="game.html">GAME</a></li>
+                <li><a href="history.html">HISTOY</a></li>
+                <li><a href="quiz.html" class="active">QUIZ</a></li>
+            </ul>
+        </div>
+        <div class="carousel">
+            <h1>QUIZ</h1>
+            <h2>Gaming e gioco d'azzardo</h2>
+        </div>
+    </header>
+
+    <main>
+        <div id="quiz">
+
+            <p id="domanda"></p>
+
+            <div id="opzioni"></div>
+
+            <button onclick="controlla()">Rispondi</button>
+            <button onclick="avanti()">Avanti</button>
+
+            <p id="feedback"></p>
+
+        </div>
+    </main>
+
+    <footer>
+        <a href="mailto:luca.bertoncin@salesiani.novara.it">Realizzato da Luca Bertoncin - luca.bertoncin@salesiani.novara.it</a>
+    </footer>
+<script src="js/quiz.js"></script>
+</body>
+</html>
